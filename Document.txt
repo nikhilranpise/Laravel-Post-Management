@@ -1,0 +1,13 @@
+Take a clone
+
+To run project  :
+
+php artisan serve
+First run
+Run : php artisan:migrate
+
+then
+Login for super user.
+
+username : admin 
+Password: admin 

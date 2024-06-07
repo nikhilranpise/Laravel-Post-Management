@@ -1,0 +1,50 @@
+/****************************/
+/** Imports Plugin css **/
+/****************************/
+@import url('../Theme/bootstrap.css');
+@import url('../Theme/perfect-scrollbar.css');
+@import url('../Theme/morris.css');
+@import url('../Theme/owl.carousel.css');
+@import url('../Theme/owl.theme.default.min.css');
+@import url('../Theme/horizontal-timeline.css');
+@import url('../Theme/flexslider.css');
+@import url('../Theme/prism.css');
+@import url('../Theme/datatables.min.css');
+@import url('../Theme/magnific-popup.css');
+@import url('../Theme/animated-masonry-gallery.css');
+@import url('../Theme/ekko-lightbox.css');
+@import url('../Theme/jquery-jvectormap-2.0.2.css');
+@import url('../Theme/bootstrap-editable.css');
+@import url('../Theme/sweetalert.css');
+@import url('../Theme/bootstrap-editable.css');
+@import url('../Theme/sweetalert.css');
+@import url('../Theme/bootstrap-markdown.css');
+@import url('../Theme/dropzone.css');
+@import url('../Theme/select2.min.css');
+@import url('../Theme/daterangepicker.css');
+@import url('../Theme/bootstrap-datepicker.min.css');
+@import url('../Theme/bootstrap-colorpicker.min.css');
+@import url('../Theme/bootstrap-select.css');
+@import url('../Theme/bootstrap-tagsinput.css');
+@import url('../Theme/jquery.bootstrap-touchspin.css');
+@import url('../Theme/jquery.raty.css');
+@import url('../Theme/ion.rangeSlider.css');
+@import url('../Theme/ion.rangeSlider.skinModern.css');
+@import url('../Theme/gridstack.css');
+@import url('../Theme/jquery.toast.css');
+@import url('../Theme/nestable.css');
+@import url('../Theme/switch.css');
+@import url('../Theme/c3.min.css');
+@import url('../Theme/chartist.css');
+@import url('../plugins/slider.css');
+@import url('../plugins/blue.css');
+@import url('../plugins/_all.css');
+@import url('../plugins/bootstrap3-wysihtml5.css');
+@import url('../plugins/bootstrap3-wysihtml5.min.css');
+@import url('../plugins/bootstrap-timepicker.min.css');
+@import url('../plugins/pace.min.css');
+@import url('../Theme/fullcalendar.min.css');
+@import url('../Theme/fullcalendar.print.min.css');
+@import url('../Theme/weather-icons.css');
+
+/*# sourceMappingURL=vendors_css.css.map */

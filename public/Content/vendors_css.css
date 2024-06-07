@@ -1,0 +1,48 @@
+/****************************/
+/** Imports Plugin css **/
+/****************************/
+@import url('../assests/bootstrap/bootstrap.css');
+@import url('../assests/perfectscrollbar/perfect-scrollbar.css');
+@import url('../assests/morris.css');
+@import url('../assests/carousel/owl.carousel.css');
+@import url('../assests/carousel/owl.theme.default.min.css');
+@import url('../assests/horizontal-timeline.css');
+@import url('../assests/flexslider.css');
+@import url('../assests/prism.css');
+@import url('../assests/datatables.min.css');
+@import url('../assests/magnific-popup.css');
+@import url('../assests/animated-masonry-gallery.css');
+@import url('../assests/ekko-lightbox.css');
+@import url('../assests/jquery-jvectormap-2.0.2.css');
+@import url('../assests/bootstrap-editable.css');
+@import url('../assests/sweetalert.css');
+@import url('../assests/bootstrap-markdown.css');
+@import url('../assests/dropzone.css');
+@import url('../assests/select2.min.css');
+@import url('../assests/daterangepicker.css');
+@import url('../assests/bootstrap/bootstrap-datepicker.min.css');
+@import url('../assests/bootstrap/bootstrap-colorpicker.min.css');
+@import url('../assests/bootstrap-select.css');
+@import url('../assests/bootstrap-tagsinput.css');
+@import url('../assests/jquery.bootstrap-touchspin.css');
+@import url('../assests/jquery.raty.css');
+@import url('../assests/ion.rangeSlider.css');
+@import url('../assests/ion.rangeSlider.skinModern.css');
+@import url('../assests/gridstack.css');
+@import url('../assests/jquery.toast.css');
+@import url('../assests/nestable.css');
+@import url('../assests/switch.css');
+@import url('../assests/c3.min.css');
+@import url('../assests/chartist.css');
+@import url('../assests/slider.css');
+@import url('../assests/blue.css');
+@import url('../assests/bootstrap3-wysihtml5.min.css');
+@import url('../assests/_all.css');
+@import url('../assests/bootstrap-timepicker.min.css');
+@import url('../assests/fullcalendar.min.css');
+@import url(../../assets/vendor_plugins/pace/pace.min.css);
+@import url('../assests/fullcalendar.print.min.css');
+@import url('../assests/weather-icons.css');
+@import "../assests/fullcalendar.print.min.css" print;
+
+
