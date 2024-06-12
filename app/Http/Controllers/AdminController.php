@@ -23,7 +23,7 @@ class AdminController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'username' => 'required',
+            'username' => 'required|unique:admins,username',
             'password' => 'required|min:5',
 
         ]);
@@ -53,7 +53,7 @@ class AdminController extends Controller
             
             return redirect('posts')->with('success','Login Successful !!');
         }else{
-            return redirect('/')->with('error', 'Invalid Email/Password');
+            return redirect('/')->with('error', 'Invalid Username/Password');
         }
         
         // $user_check = Admin::where(['username' => $request->username, 'password' => $request->password])->count();

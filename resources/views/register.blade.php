@@ -52,7 +52,7 @@
                                     <input type="password" class="form-control" name="password" id="textbox2" placeholder="Password" autocomplete="off">
                                     <span class="text-danger" >@error('password'){{ $message }}@enderror</span>
                                 </div>
-                                <input type="submit" value="Log In" id="btnLogin" class="btn btn-block btn-grad">
+                                <input type="submit" value="Register" id="btnLogin" class="btn btn-block btn-grad">
 
                                 
                             </form>

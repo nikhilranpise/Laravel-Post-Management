@@ -1,12 +1,17 @@
-Take a clone
+Take a clone or copy folder.
+
+Add .env file in your main directory that is postmanagement.
+.env is present in repo if not I have attached in gmail.
 
 To run project  :
 
-php artisan serve
-First run
-Run : php artisan:migrate
 
-then
+First run :
+php artisan:migrate
+php artisan db:seed
+
+To run project use: php artisan serve
+
 Login for super user.
 
 username : admin 

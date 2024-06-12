@@ -38,10 +38,8 @@
                             <br> 
                             @endif
 
-                            <form method="post">
+                            <form method="post" action="{{ url('/login') }}">
                                 @csrf
-                                <!-- <input type="hidden" autocomplete="off" id="hidUserName" name="username" />
-                                <input type="hidden" autocomplete="off" id="hidPassword" name="Password" /> -->
                                 <div class="form-group first">
                                     <input type="text" class="form-control" name="username" id="textbox1" autocomplete="off" placeholder="Username">
                                     <span class="text-danger" >@error('username'){{ $message }}@enderror</span>
@@ -50,9 +48,6 @@
                                     <input type="password" class="form-control" name="password" id="textbox2" placeholder="Password" autocomplete="off">
                                     <span class="text-danger" >@error('password'){{ $message }}@enderror</span>
                                 </div>
-                                <!-- <div class="mb-4 text-right">
-                                    <a href="@Url.Action("ForgotPassword","User")" class="text-primary" style="text-decoration:none">Forgot Password ?</a>
-                                </div> -->
                                 <input type="submit" value="Log In" id="btnLogin" class="btn btn-block btn-grad">
 
                                 
